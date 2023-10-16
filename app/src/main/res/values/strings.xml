@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AnimationText</string>
+    <string name="welcome">Welcome</string>
+    <string name="animation">Animation</string>
+    <string name="welcome_two">Welcome_Two</string>
+    <string name="str_animation">Animation</string>
+    <string name="str_move_btn">Move</string>
+    <string name="str_alpha_btn">Alpha</string>
+    <string name="str_rotate_btn">Rotate</string>
+    <string name="str_scale_btn">Scale</string>
+    <string name="str_next_activity_btn">Next Activity</string>
+    <string name="str_blink_text">Blink Text</string>
+    <string name="str_blink_effect">Blink Effect</string>
+    <string name="blink_text">Blink Text</string>
+    <string name="blink_effect">Blink Effect</string>
+    <string name="card_animation">Card Animation</string>
+</resources>

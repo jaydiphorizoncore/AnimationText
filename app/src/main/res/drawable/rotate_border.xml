@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#FF4081" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <!-- Rotating Border -->
+    <item
+        android:id="@+id/rotating_border"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"
+        android:bottom="10dp">
+        <rotate
+            android:fromDegrees="0"
+            android:toDegrees="360"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape
+                android:shape="rectangle">
+                <stroke
+                    android:width="4dp"
+                    android:color="#FFFFFF" />
+                <corners android:radius="4dp" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
